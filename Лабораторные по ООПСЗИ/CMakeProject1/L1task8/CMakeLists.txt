@@ -1,0 +1,6 @@
+﻿add_library(L1task8lib STATIC "")
+target_sources(L1task8lib PRIVATE "../L1task7/task7_func.c")
+add_executable(L1task8 "")
+target_sources(L1task8 PRIVATE "../L1task7/task7_main.c")
+target_link_libraries(L1task8 L1task8lib)
+target_include_directories(L1task8 PRIVATE "../L1task7/func.h")

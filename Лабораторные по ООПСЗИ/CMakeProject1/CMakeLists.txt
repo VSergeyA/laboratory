@@ -1,0 +1,8 @@
+﻿add_subdirectory ("L1task1")
+add_subdirectory ("L1task2")
+add_subdirectory ("L1task3")
+add_subdirectory ("L1task4")
+add_subdirectory ("L1task5")
+add_subdirectory ("L1task6")
+add_subdirectory ("L1task7")
+add_subdirectory ("L1task8")
